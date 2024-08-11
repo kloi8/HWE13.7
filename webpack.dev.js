@@ -1,7 +1,8 @@
 const { merge } = require('webpack-merge');
 const common = require('./webpack.config.js');
+const { config } = require('webpack');
 
-module.exports = merge(common, {
+module.exports = merge(config, {
     mode: 'development',
     devtool: 'inline-source-map',
     devServer: {
@@ -12,12 +13,6 @@ module.exports = merge(common, {
                 children: false,
                 maxModules: 0,
             },
-        // proxy: {
-        //     '/api': {
-        //         target: 'http://localhost:3010',
-        //         pathRewrite: { '^/api': '' },
-        //     },
-        // },
         },
     }
 });

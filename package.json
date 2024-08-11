@@ -6,7 +6,9 @@
   "scripts": {
     "build": "webpack",
     "prepare": "husky install",
-    "test": "jest"
+    "test": "jest",
+    "start": "webpack serve --config webpack.dev.js",
+    "run build": "webpack serve --config webpack.prod.js"
   },
   "author": "",
   "license": "ISC",
