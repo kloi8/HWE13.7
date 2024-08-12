@@ -1,8 +1,8 @@
 const { merge } = require('webpack-merge');
 const common = require('./webpack.config.js');
-const { config } = require('webpack');
+// const { config } = require('webpack');
 
-module.exports = merge(config, {
+module.exports = merge(common, {
     mode: 'development',
     devtool: 'inline-source-map',
     devServer: {
