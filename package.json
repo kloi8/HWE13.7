@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
     "prepare": "husky install",
     "test": "jest",
-    "start": "webpack serve --config webpack.dev.js",
-    "run build": "webpack serve --config webpack.prod.js"
+    "start": "webpack serve --config webpack.dev.js", 
+    "build": "webpack --config webpack.prod.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +19,9 @@
     "pug-loader": "^2.4.0",
     "webpack": "^5.93.0",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.0.4"
+    "webpack-dev-server": "^5.0.4",
+    "eslint": "9.9.0"
+    
   }
 }
+

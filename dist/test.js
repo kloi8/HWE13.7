@@ -1,8 +1,2 @@
-/******/ (() => { // webpackBootstrap
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-document.write('Hello, world!');
-/******/ })()
-;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGVzdC5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUEsZ0MiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9lMTMvLi9zcmMvaW5kZXguanMiXSwic291cmNlc0NvbnRlbnQiOlsiZG9jdW1lbnQud3JpdGUoJ0hlbGxvLCB3b3JsZCEnKTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=
+document.write("Hello, world!");
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGVzdC5qcyIsIm1hcHBpbmdzIjoiQUFBQUEsU0FBU0MsTUFBTSIsInNvdXJjZXMiOlsid2VicGFjazovL2UxMy8uL3NyYy9pbmRleC5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJkb2N1bWVudC53cml0ZSgnSGVsbG8sIHdvcmxkIScpOyJdLCJuYW1lcyI6WyJkb2N1bWVudCIsIndyaXRlIl0sInNvdXJjZVJvb3QiOiIifQ==
